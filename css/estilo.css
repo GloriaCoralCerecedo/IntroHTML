@@ -1,0 +1,379 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+body,.container{
+    background-color:rgb(255, 205, 169);
+    }
+.cake{
+    width:250px; 
+    height:250px
+    }
+.imgfooter{
+    width:800px; 
+    height:300px;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom:-250px;
+}
+.menu{
+        margin-left: 300px;
+        margin-top: -200px;
+        margin-bottom: 130px;
+    }
+.menupas{
+        margin-top: 150px;
+    }
+.menu2{
+        margin-left: 300px;
+        margin-top: -100px;
+    }
+.frases{
+    margin-top: 100px;
+}
+.pastelero{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(231, 104, 0);;
+    text-shadow: 8px 8px 8px  white;
+    font-style:italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 200px;
+    color:rgb(248, 223, 211);
+    text-shadow: 8px 8px 8px  black;
+    }
+footer{
+    background-color: rgba(248, 196, 148, 0.788);
+    border-style: groove;
+    }
+dl{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 1000px;
+    color:rgb(255, 255, 255);
+    text-shadow: 8px 8px 8px  black;  
+    }
+p{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(231, 104, 0);;
+    text-shadow: 8px 8px 8px  white;
+    font-style:italic;
+    font-family: 'Times New Roman', Times, serif;
+    }
+section, label{
+    margin-left: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-style: oblique;
+    color: rgb(214, 112, 29);;
+    text-shadow: 5px 5px 5px white;
+    }
+.sec1{
+    margin-left: 200px;
+    }
+.sec2{
+    margin-left: 800px;
+    margin-top: -500px;
+    }
+hr{
+    height: 3px;
+    background-color: white;
+    }
+h2{
+    text-align: justify;
+    font-size: 25px;
+    margin-left: 25px;
+    color: rgb(230, 124, 39);;
+    text-shadow: 8px 8px 8px  white;
+    font-family: 'Times New Roman', Times, serif;
+    }
+.input{
+    margin-left: 50px;
+    border-style: groove;
+    font-size: 20px;
+    margin-top: 30px;
+    background-color: bisque;
+    }
+#descripcion{
+    width:500px;
+    height:100px;
+    }
+.seleccion{
+    text-align: justify;
+    font-size: 20px;
+    margin-left:10px;
+    color: rgb(230, 124, 39);;
+    text-shadow: 8px 8px 8px  white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    }
+.check{
+    width:20px;
+    height:20px;
+    }
+.selec2{
+    margin-left: 500px;
+    margin-top:-350px;
+    }
+.selec3{
+    margin-left: 900px;
+    margin-top:-180px;
+    }
+#restablecer, #enviar{
+    margin-left: 700px;
+    border-style: groove;
+    font-size: 30px;
+    margin-top: 30px;
+    background-color: bisque;
+    }
+#enviar{
+    margin-left: 1000px;
+    margin-top: -60px;
+    }
+textarea {
+    resize: none;
+    }
+table{
+    border: 1px solid #000;
+    width: 100%;
+    background: coral;
+    color: rgb(233, 190, 127);
+    font-size: 20px;
+    margin-left:-30px;
+}
+th,td{
+    width: 10%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-spacing: 0px;
+    padding: 0.3em;
+    background: rgb(231, 190, 136);
+    color: #000;
+}
+.tabla2{
+    width: 30%;
+    margin-left: 400px;
+    margin-bottom:30px;
+}
+.tablacan2{
+    margin-left: 430;
+    margin-top: -446px;
+}
+.tabla3{
+    width: 30%;
+    margin-left: 400px;
+}
+.tablacan3{
+    margin-left: 430;
+    margin-top: -522px;
+}
+th{
+    color:rgb(214, 58, 1);
+}
+#boton{
+    width: 600px;
+    height: 50px;
+    background-color: rgb(252, 183, 158);
+    border-style: dashed;
+    margin-left:500px ;
+}
+.botona{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 150, 75);
+    text-shadow: 8px 8px 8px  black;
+    margin-left: -10px;
+    
+}
+
+@media (max-width: 992px){
+    a{
+        margin-left: 200px;
+    }
+    dl{
+        margin-left: 150px;
+    }
+}
+@media (min-width: 768px) and (max-width:  991px){
+    a{
+        margin-left: 50px;
+    }
+    dl{
+        margin-left:100px ;
+    }
+    .sec1{
+        margin-left: 100px;
+    }
+    .sec2{
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    .selec2{
+        margin-left: 50px;
+        margin-top:50px;
+    }
+    .selec3{
+        margin-left: 50px;
+        margin-top:30px;
+    }
+    #restablecer{
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    #enviar{
+        margin-left: 300px;
+        margin-top: -60px;
+    }
+    table{
+        font-size: 18px;
+        margin-left: -50px;
+    }
+    .tabla1{
+        margin-left: 40px;
+    }
+    .tabla2{
+        width: 50%;
+        margin-left: 50px;
+        margin-bottom:30px;
+    }
+    .tablacan2{
+        margin-left: 329px;
+        margin-top: -411px;
+    }
+    .tabla3{
+        width: 50%;
+        margin-left: 50px;
+    }
+    .tablacan3{
+        margin-left: 329px;
+        margin-top: -480px;
+    }
+    .menu{
+        margin-left: 300px;
+        margin-top: -100px;
+    }
+    .frases{
+        margin-top: 100px;
+    }
+    .menupas{
+        margin-top: 150px;
+    }
+    .menu2{
+        margin-left: 350px;
+        margin-top: -100px;
+    }
+    .imgfooter{
+        display: none;
+    }
+    #boton{
+    width: 600px;
+    height: 50px;
+    background-color: rgb(252, 183, 158);
+    border-style: dashed;
+    margin-left:100px ;
+}
+    .botona{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 150, 75);
+    text-shadow: 8px 8px 8px  black;
+    margin-left: -10px;
+    
+}
+}
+@media (max-width:  767px){
+    .sec1{
+        font-size: 15px;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+    .sec2{
+        font-size: 15px;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+    #descripcion{
+        width:400px;
+        height:100px;
+    }
+    .selec2{
+        margin-left: 50px;
+        margin-top:50px;
+    }
+    .selec3{
+        margin-left: 50px;
+        margin-top:10px;
+    }
+    #restablecer{
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    #enviar{
+        margin-left: 300px;
+        margin-top: -60px;
+    }
+    table{
+        font-size: 11px;
+        margin-left: -50px;
+    }
+    .tabla2{
+        width: 50%;
+        margin-left: 50px;
+        margin-bottom:-10px;
+    }
+    .tablacan2{
+        margin-left: 184px;
+        margin-top: -276px;
+    }
+    .tabla3{
+        width: 50%;
+        margin-left: 50px;
+    }
+    .tablacan3{
+        margin-left: 184px;
+        margin-top: -322px;
+    }
+    .tabla1{
+        margin-left: 40px;
+    }
+    .menu{
+        margin-left: 100px;
+        margin-top: -180px;
+    }
+    .frases{
+        margin-top: 100px;
+    }
+    .menupas{
+        margin-top: 200px;
+    }
+    .menu2{
+        margin-left: 150px;
+        margin-top: -100px;
+    }
+    .imgfooter{
+        display: none;
+    }
+    #boton{
+        width: 300px;
+        height: 50px;
+        background-color: rgb(252, 183, 158);
+        border-style: dashed;
+        margin-left:100px ;
+    }
+        .botona{
+        text-align: center;
+        font-size: 30px;
+        color: rgb(255, 150, 75);
+        text-shadow: 8px 8px 8px  black;
+        margin-left: -10px;
+        
+    }
+}
+
+
+
